@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+body.light-theme {
+  background-image: url('/Users/abhishekashish/Desktop/my-blog-app/src/assets/8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body.dark-theme {
+  background-image: url('/Users/abhishekashish/Desktop/my-blog-app/src/assets/eu8_01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,86 @@
+/* blog.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .blog-post {
+    background-color: rgba(255, 255, 255, 0.3); /* 30% opacity for light theme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some box shadow */
+    border: 1px solid rgba(204, 204, 204, 0.5); /* Adjust border to match transparency */
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .dark-theme .blog-post {
+    background-color: rgba(0, 0, 0, 0.3); /* 30% opacity for dark theme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow for dark theme if needed */
+    border: 1px solid rgba(0, 0, 0, 0.5); /* Adjust border to match transparency */
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .post-description {
+    font-size: 1.2rem;
+    color: #666666;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end; /* Adjusted to flex-end for right alignment */
+    margin-top: 10px;
+  }
+  
+  /* Style adjustments for smaller screens */
+  @media (max-width: 600px) {
+    .button-container {
+      justify-content: flex-start; /* Adjusted to flex-start for left alignment on smaller screens */
+    }
+  }
+  
+
+
+  /* blog.css */
+

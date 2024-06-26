@@ -1,0 +1,61 @@
+/* Default styles (for light theme) */
+.editor-container {
+    color: #000000; /* Default text color for light theme */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .editor-class {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    min-height: 200px; /* Example minimum height */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background for light theme */
+    color: #000000; /* Text color for editor content in light theme */
+  }
+  
+  .toolbar-class {
+    background-color: #f0f0f0; /* Background color for toolbar in light theme */
+    border: none;
+  }
+  
+  .toolbar-class .rdw-option-wrapper {
+    color: #000000; /* Text color for toolbar buttons in light theme */
+  }
+  
+  .link-popup {
+    background-color: #ffffff; /* Background color for link popup in light theme */
+    color: #000000; /* Text color for link popup in light theme */
+  }
+  
+  /* Dark theme styles */
+  .dark-theme .editor-container {
+    color: #ffffff; /* Text color for dark theme */
+  }
+  
+  .dark-theme .editor-class {
+    background-color: rgba(0, 0, 0, 0.3); /* Transparent background for dark theme */
+    color: #ffffff; /* Text color for editor content in dark theme */
+  }
+  
+  .dark-theme .toolbar-class {
+    background-color:  #667467; /* Background color for toolbar in dark theme */
+  }
+  
+  .dark-theme .toolbar-class .rdw-option-wrapper {
+    color: #ffffff; /* Text color for toolbar buttons in dark theme */
+  }
+  
+  .dark-theme .link-popup {
+    background-color: #a2b331; /* Background color for link popup in dark theme */
+    color: #ffffff; /* Text color for link popup in dark theme */
+  }
+  
+  .buttons{
+    margin-top: 12px;
+  }
+
+  

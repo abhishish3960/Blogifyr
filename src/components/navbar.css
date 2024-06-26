@@ -1,0 +1,73 @@
+/* navbar.css */
+
+.navbar {
+    background-color: transparent !important; /* Ensure transparency */
+    color: inherit; /* Inherit text color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .dark-theme .navbar {
+    color: white; /* Text color for dark theme */
+  }
+  
+  .dark-theme .navbar-title {
+    flex-grow: 1; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    text-decoration: none; 
+    margin-left: 16px;
+    color: white;
+  }
+  .light-theme .navbar-title {
+    flex-grow: 1; /* Allow title to expand */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold; /* Bold font */
+    text-decoration: none; /* Remove underline */
+    margin-left: 16px; /* Margin for spacing */
+    color: black;
+  }
+  .create-post-button{
+    background-color: #d81b60;
+  }
+  .create-post-button,
+  .theme-toggler {
+    font-size: 1rem;
+    color: inherit; /* Inherit text color */
+    font-weight: bold; /* Bold font */
+    text-transform: uppercase; /* Uppercase text */
+    padding: 8px 24px; /* Padding for button */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .create-post-button:hover,
+  .theme-toggler:hover {
+    background-color: rgba(45, 84, 125, 0.1); /* Lighter background on hover */
+  }
+  
+  .theme-toggler {
+    margin-left: auto; /* Push to the right */
+  }
+  
+  /* Adjustments for dark theme */
+  .light-theme .create-post-button,
+  .dark-theme .theme-toggler {
+    color: white; /* Text color for dark theme */
+  }
+  .dark-theme .create-post-button,
+  .light-theme .theme-toggler {
+    color: black;
+  }
+ .home-logo{
+    width:4%;
+    height: auto;
+    cursor: pointer;
+ }
+
+.home-icon{
+    display: flex;
+   width:10%;
+    flex-grow: 1;
+    
+   
+}
