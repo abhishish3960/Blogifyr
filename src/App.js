@@ -20,15 +20,28 @@ function App() {
     document.body.className = currentTheme === 'light' ? 'light-theme' : 'dark-theme';
   }, [currentTheme]);
 
+  const getBackgroundImage = () => {
+    if (currentTheme === 'light') {
+      return`url(${process.env.PUBLIC_URL}/assets/8.jpg)`;
+    } else {
+      return `url(${process.env.PUBLIC_URL}/assets/eu8_01.jpg)`;
+    }
+  };
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Blog />} />
-        <Route path="/editor" element={<BlogEditor />} />
-        <Route path="/edit/:postId" element={<EditPost />} />
-      </Routes>
+      <div
+        className="app-container"
+        style={{ backgroundImage: getBackgroundImage(), backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}
+      >
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Blog />} />
+          <Route path="/editor" element={<BlogEditor />} />
+          <Route path="/edit/:postId" element={<EditPost />} />
+        </Routes>
+      </div>
     </ThemeProvider>
   );
 }

@@ -37,7 +37,7 @@
   }
 }
 body.light-theme {
-  background-image: url('/assets/8.jpg');
+  
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body.light-theme {
 }
 
 body.dark-theme {
-  background-image: url('/assets/eu8_01.jpg');
+ 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
