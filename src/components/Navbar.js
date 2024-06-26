@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Button, Switch } from '@mui/material';
+import { AppBar, Toolbar,  Button, Switch } from '@mui/material';
 import { Brightness4 as DarkIcon, Brightness7 as LightIcon } from '@mui/icons-material';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleTheme } from '../redux/actions';
