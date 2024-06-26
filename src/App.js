@@ -1,5 +1,3 @@
-// App.js
-
 import React, { useEffect } from 'react';
 import { ThemeProvider, CssBaseline } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
@@ -22,7 +20,7 @@ function App() {
 
   const getBackgroundImage = () => {
     if (currentTheme === 'light') {
-      return`url(${process.env.PUBLIC_URL}/assets/8.jpg)`;
+      return `url(${process.env.PUBLIC_URL}/assets/8.jpg)`;
     } else {
       return `url(${process.env.PUBLIC_URL}/assets/eu8_01.jpg)`;
     }
@@ -33,7 +31,14 @@ function App() {
       <CssBaseline />
       <div
         className="app-container"
-        style={{ backgroundImage: getBackgroundImage(), backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}
+        style={{
+          backgroundImage: getBackgroundImage(),
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          minHeight: '100vh', // Ensures the background covers the entire viewport
+        }}
       >
         <Navbar />
         <Routes>

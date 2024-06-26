@@ -71,3 +71,8 @@
     
    
 }
+@media (max-width: 768px) {
+    .home-logo {
+      width: 35px; /* Reduce width for smaller screens */
+    }
+  }
