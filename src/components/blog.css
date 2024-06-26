@@ -80,7 +80,13 @@
     }
   }
   
+.post-body {
+  color: #000000; /* Default text color for light theme */
+}
 
+.dark-theme .post-body {
+  color: #ffffff; /* Text color for dark theme */
+}
 
   /* blog.css */
 
