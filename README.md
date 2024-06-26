@@ -10,33 +10,39 @@ Blogifyr is a web application for managing and publishing blog posts.
 
 ## Deployment
 
-The application is deployed and accessible at: [Deployment URL](https://blogifyr.netlify.app/)
+The application is deployed and accessible at: [Blogifyr Deployment](https://blogifyr.netlify.app/)
 
 ## Technologies Used
 
-###Frontend Framework/Library:
+### Frontend Framework/Library
 
-React: Used for building the user interface of your web application.
-###State Management:
+- React: Used for building the user interface of your web application.
 
-Redux Toolkit: Employed for managing global state and application data flow.
-###Styling:
+### State Management
 
-Material-UI: Used for UI components and theming.
-###Routing:
+- Redux Toolkit: Employed for managing global state and application data flow.
 
-React Router: Used for handling client-side routing within the application.
-###Other Libraries and Tools:
+### Styling
 
-Draft.js: Possibly used for rich text editing capabilities.
-HTML-to-Draft.js and Draftjs-to-HTML: Used for converting HTML content to Draft.js editor content and vice versa.
-Redux Thunk: Middleware for handling asynchronous actions in Redux.
-###Testing and Development:
+- Material-UI: Used for UI components and theming.
 
-Jest, React Testing Library: Used for testing components and application logic.
-Deployment:
+### Routing
 
-###Netlify: Deployed the application to Netlify for hosting.
+- React Router: Used for handling client-side routing within the application.
+
+### Other Libraries and Tools
+
+- Draft.js: Used for rich text editing capabilities.
+- HTML-to-Draft.js and Draftjs-to-HTML: Used for converting HTML content to Draft.js editor content and vice versa.
+- Redux Thunk: Middleware for handling asynchronous actions in Redux.
+
+### Testing and Development
+
+- Jest, React Testing Library: Used for testing components and application logic.
+
+### Deployment
+
+- Netlify: Deployed the application to Netlify for hosting.
 
 ## Setup Instructions
 
