@@ -14,29 +14,29 @@ The application is deployed and accessible at: [Deployment URL](https://blogifyr
 
 ## Technologies Used
 
-Frontend Framework/Library:
+###Frontend Framework/Library:
 
 React: Used for building the user interface of your web application.
-State Management:
+###State Management:
 
 Redux Toolkit: Employed for managing global state and application data flow.
-Styling:
+###Styling:
 
 Material-UI: Used for UI components and theming.
-Routing:
+###Routing:
 
 React Router: Used for handling client-side routing within the application.
-Other Libraries and Tools:
+###Other Libraries and Tools:
 
 Draft.js: Possibly used for rich text editing capabilities.
 HTML-to-Draft.js and Draftjs-to-HTML: Used for converting HTML content to Draft.js editor content and vice versa.
 Redux Thunk: Middleware for handling asynchronous actions in Redux.
-Testing and Development:
+###Testing and Development:
 
 Jest, React Testing Library: Used for testing components and application logic.
 Deployment:
 
-Netlify: Deployed the application to Netlify for hosting.
+###Netlify: Deployed the application to Netlify for hosting.
 
 ## Setup Instructions
 
