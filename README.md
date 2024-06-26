@@ -62,3 +62,9 @@ To run this project locally, follow these steps:
 2. **Install project dependencies:**
    ```bash
    npm install
+3. **Run the Application:**
+   ```bash
+   npm start
+4. **Access the application in your browser:**
+   http://localhost:3000
+   
